@@ -34,6 +34,7 @@ private:
 
 };
 
+// accumulator and voxelGrid 
 void Accumulator::accumulate_pc(const sensor_msgs::PointCloud2 &ros_pc){
 
 	pcl::PCLPointCloud2 pcl_pc2; 
